@@ -30,7 +30,7 @@ const uploadImage = (file, fileName, directory) => {
 };
 
 const uploadAll = (file, fileName) => {
-  const directories = ["dev", "staging", "prod"];
+  const directories = ["dev", "staging", "prod"]; // Add top level path of the s3 bucket
 
   const uploads = directories.map((directory) => {
     return uploadImage(file, fileName, directory);
