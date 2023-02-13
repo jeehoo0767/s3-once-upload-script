@@ -3,7 +3,7 @@
 ```shell
 npm init
 
-npm instamm --save aws-sdk
+npm install --save aws-sdk
 ```
 2. Add your aws accessKeyId and secretAccessKey
 ```javascript
